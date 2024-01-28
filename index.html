@@ -7,80 +7,239 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<div class="wrapper">
-    <div class="left_section">
-        <div class="name_block">
-            <div class="name_block__logo">
-                <img src="assets/logo.png" class="logo" alt="logo of the dashboard">
-            </div>
-            <div class="name_block__title">My dashboard</div>
-        </div>
-        <div class="nav-button_block">
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/home.png" alt="">
-                </div>
-                <div class="button_line__name">Home</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/profile.png" alt="">
-                </div>
-                <div class="button_line__name">Profile</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/message.png" alt="">
-                </div>
-                <div class="button_line__name">Messages</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/history.png" alt="">
-                </div>
-                <div class="button_line__name">History</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/tasks.png" alt="">
-                </div>
-                <div class="button_line__name">Tasks</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/community.png" alt="">
-                </div>
-                <div class="button_line__name">Communities</div>
-            </div>
-        </div>
-        <div class="info-button_block">
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/settings.png" alt="">
-                </div>
-                <div class="button_line__name">Settings</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/support.png" alt="">
-                </div>
-                <div class="button_line__name">Support</div>
-            </div>
-            <div class="button_line">
-                <div class="button_line__img">
-                    <img src="assets/privacy.png" alt="">
-                </div>
-                <div class="button_line__name">Privacy</div>
-            </div>
-        </div>
-    </div>
-    <div class="right_section">
-        <div class="superscription_block">123</div>
-        <div class="main-information_block">345</div>
-    </div>
-</div>
 
 <body>
+    <div class="wrapper">
+        <div class="left_section">
+            <div class="name_block">
+                <div class="name_block__logo">
+                    <img src="assets/logo.png" class="logo" alt="logo of the dashboard">
+                </div>
+                <div class="name_block__title">My dashboard</div>
+            </div>
+            <div class="nav-button_block">
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/home.png" alt="">
+                    </div>
+                    <div class="button_line__name">Home</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/profile.png" alt="">
+                    </div>
+                    <div class="button_line__name">Profile</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/message.png" alt="">
+                    </div>
+                    <div class="button_line__name">Messages</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/history.png" alt="">
+                    </div>
+                    <div class="button_line__name">History</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/tasks.png" alt="">
+                    </div>
+                    <div class="button_line__name">Tasks</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/community.png" alt="">
+                    </div>
+                    <div class="button_line__name">Communities</div>
+                </div>
+            </div>
+            <div class="info-button_block">
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/settings.png" alt="">
+                    </div>
+                    <div class="button_line__name">Settings</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/support.png" alt="">
+                    </div>
+                    <div class="button_line__name">Support</div>
+                </div>
+                <div class="button_line">
+                    <div class="button_line__img">
+                        <img src="assets/privacy.png" alt="">
+                    </div>
+                    <div class="button_line__name">Privacy</div>
+                </div>
+            </div>
+        </div>
+        <div class="right_section">
+            <div class="superscription_block">
+                <div class="upper-head_block">
+                    <div class="search_block">
+                        <img src="assets/magnifier.png" alt="">
+                        <input type="text">
+                    </div>
+                    <div class="short-profile_block">
+                        <img src="assets/notification.png" alt="notification">
+                        <img src="assets/person_img.png" alt="">
+                        <p><span>First_name</span> <span>Last_name</span></p>
+
+                    </div>
+                </div>
+                <div class="bottom-head_block">
+                    <div class="profile-name_block">
+                        <div class="author-img_block">
+                            <img id="profile_img" src="assets/person_img.png" alt="">
+                        </div>
+                        <div class="name-users_block">
+                            <p id="greetings">Hi there,</p>
+                            <p id="name__user"><span>First_name</span> <span>Last_name</span></p>
+                        </div>
+                    </div>
+                    <div class="button-to-news_block">
+                        <button class="btn__news new">New</button>
+                        <button class="btn__news upload">Upload</button>
+                        <button class="btn__news share">Share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-information_block">
+                <div class="main-grid_block">
+                    <div class="projects_block">
+                        <p class="block__title">Your projects</p>
+                        <div class="projects_grid">
+                            <div class="project">
+                                <div class="project__title">Project</div>
+                                <div class="project__img">
+                                    <img src="assets/wzd.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project__title">Project №2</div>
+                                <div class="project__img">
+                                    <img src="assets/ok.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project__title">Project №3</div>
+                                <div class="project__img">
+                                    <img src="assets/ok.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project__title">Project №4</div>
+                                <div class="project__img">
+                                    <img src="assets/ok.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project__title">Project №5</div>
+                                <div class="project__img">
+                                    <img src="assets/ok.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                            <div class="project">
+                                <div class="project__title">Project №6</div>
+                                <div class="project__img">
+                                    <img src="assets/ok.png" alt="">
+                                </div>
+                                <div class="project__description">description</div>
+                                <div class="project__btn">
+                                    <img src="assets/stars.png" alt="" class="btn-stars">
+                                    <img src="assets/visible.png" alt="" class="btn-visible">
+                                    <img src="assets/share.png" alt="" class="btn-share">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="announcements_block">
+                        <p class="block__title">Announcements</p>
+                        <div class="announcements">
+                            <div class="announcement">
+                                <h1 class="title_announcement">Announcement 1</h1>
+                                <p class="text_announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Itaque pariatur eum ad voluptas quaerat quasi sequi error necessitatibus
+                                    voluptatibus. Eaque quibusdam culpa deserunt ipsum quia minus est totam debitis
+                                    magni.</p>
+                            </div>
+                            <div class="announcement">
+                                <h1 class="title_announcement">Announcement 2</h1>
+                                <p class="text_announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Itaque pariatur eum ad voluptas quaerat quasi sequi error necessitatibus
+                                    voluptatibus. Eaque quibusdam culpa deserunt ipsum quia minus est totam debitis
+                                    magni.</p>
+                            </div>
+                            <div class="announcement">
+                                <h1 class="title_announcement">Announcement 3</h1>
+                                <p class="text_announcement">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Itaque pariatur eum ad voluptas quaerat quasi sequi error necessitatibus
+                                    voluptatibus. Eaque quibusdam culpa deserunt ipsum quia minus est totam debitis
+                                    magni.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trendings_block">
+                        <p class="block__title">Trending</p>
+                        <div class="trending">
+                            <div class="trend">
+                                <img src="assets/photo_trending.png" alt="" class="trend__img">
+                                <div class="trend_info">
+                                    <div class="trend_info__author">@author_1</div>
+                                    <div class="trend_info__project">Project 1</div>
+                                </div>
+                            </div>
+                            <div class="trend"><img src="assets/photo_trending.png" alt="" class="trend__img">
+                                <div class="trend_info">
+                                    <div class="trend_info__author">@author_2</div>
+                                    <div class="trend_info__project">Project 2</div>
+                                </div>
+                            </div>
+                            <div class="trend"><img src="assets/photo_trending.png" alt="" class="trend__img">
+                                <div class="trend_info">
+                                    <div class="trend_info__author">@author_3</div>
+                                    <div class="trend_info__project">Project 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
